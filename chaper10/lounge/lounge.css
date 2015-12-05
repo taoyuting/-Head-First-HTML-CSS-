@@ -1,0 +1,100 @@
+body {
+	font: 					small/1.6em Verdana, Helvetica, Arial, sans-serif;
+	/*
+	font-size: 				small;
+	font-family: 			Verdana, Helvetica, Arial, sans-serif;
+	line-height: 			1.6em;
+	这里是font简写：必要的有 font-size/line-height font-family
+	其他的是可选的如 font-style font-variant font-weight
+	顺序是（刚才试了下好像是有顺序的）：
+	font-style font-variant font-weight font-size/line-height font-family
+	*/
+}
+
+h1, h2 {
+	color: 					#007e7e;
+}
+
+h1 {
+	font-size: 				150%;
+}
+
+h2 {
+	font-size: 				130%
+}
+
+#guarantee {
+	font: 					italic small/1.9em Georgia, "Times New Roman", Times, serif;
+	/*
+	font-family: 			Georgia, "Times New Roman", Times, serif;
+	font-style: 			italic;
+	line-height:	 		1.9em;
+	*/
+
+	color: 					#444444;
+
+	border: 				white 1px dashed;
+	padding: 				25px 25px 25px 80px;
+	margin: 				30px 250px 30px 30px;
+	background: 			#a7cece url(images/background.gif) no-repeat top left;
+/*此段是 p guarantee*/
+}
+
+#elixirs {					/*此段是 div elixirs*/
+	line-height: 			1;
+	border: 				thin solid #007e7e;
+	width: 					200px;
+	padding: 				0px 20px  20px  20px;
+	/*此段是内边距*/
+	margin-left: 			20px;	/*嗯，外边距*/
+
+	text-align: 			center;
+	background: 			url(images/cocktail.gif) repeat-x;
+	float: 					right;
+}
+
+#elixirs h2 {
+	color: 					black;
+}
+#elixirs h3 {
+	color: 					#d12c47;
+}
+/*此段是 div elixirs*/
+
+#footer {
+	font-size:					50%;
+	line-height: 			normal;
+	text-align: 			center;
+	margin-top: 			30px;
+}
+
+/*这段是span class*/
+.cd {
+	font-style: 			italic;
+}
+.artist {
+	font-weight: 			bold;
+}
+/*这段是span class*/
+
+
+/*a:link 指定a（链接）状态样式，如果有多种状态样式，顺序最好是
+link, visited, hover, focus, active*/
+a:link {
+	color: 					#007e7e;
+}
+a:visited {
+	color: 					#333333;
+}
+#elixirs a:link {
+	color: 					#007e7e;
+}
+#elixirs a:visited {
+	color: 					#333333;
+}
+#elixirs a:hover {
+	background-color: 		#f88396;
+	color: 					#0d5353;
+}
+/*a:link 指定a（链接）状态样式，如果有多种状态样式，顺序最好是
+link, visited, hover, focus, active*/

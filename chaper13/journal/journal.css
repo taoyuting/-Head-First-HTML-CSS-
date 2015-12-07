@@ -1,0 +1,79 @@
+@font-face {
+	font-family: 		"Emblema One";
+	src: 				url("Emblemaone-Regular.woff"),
+		 				url("Emblemaone-Regular.ttf");
+}
+
+body {
+	font-family: 		Verdana, Geneva, Arial, sans-serif;
+	font-size: 			small;
+}
+h1, h2 {
+	color: 				#cc6600;
+	border-bottom: 		thin dotted #888888
+}
+h1 {
+	font-family: 		"Emblema One",sans-serif;
+	font-size: 			220%;
+}
+h2 {
+	font-size: 			1.3em;
+	font-weight: 		normal;
+}
+blockquote {
+	font-style: 		italic;
+}
+
+table {
+	margin-left:		20px;
+	margin-right: 		20px;
+	border: 			thin solid black;
+	caption-side: 		bottom; 
+	border-collapse: 	collapse;
+	/*collapse是让单元格边框合并为一条，看上去更简洁
+	也可以用border-spacing:0px来完成*/
+}
+table table th {
+	background-color: 	white;
+}
+/*
+table table .Tess {
+	background-color: 	pink;
+}*/
+td, th {
+	border: 			thin dotted gray;
+	padding: 			5px;
+}
+th {
+	background-color: 	#cc6600;
+}
+caption {
+	font-style: 		italic;
+	padding-top: 		8px;
+}
+
+.center {
+	text-align: 		center;
+}
+.right {
+	text-align: 		right;
+}
+.cellcolor {
+	background-color: 	#fcba7a;
+}
+/*
+tr:nth-child(odd) {
+	background-color: 	#fcba7a;
+}
+	这个是nth-child伪类，可以为表格隔行增加背景色
+	也可以用上面的类 .cellcolor 来完成
+*/
+
+
+li {
+	list-style-image: 	url(images/backpack.gif);
+	padding-top: 		5px;
+	margin-left: 		20px;
+/* list-style-type 是设定标记类型：disc,circle,square、none
+	也可以用 list-style-image 图片去做项目标记*/
+}
